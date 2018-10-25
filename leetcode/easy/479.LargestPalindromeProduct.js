@@ -12,6 +12,7 @@ var largestPalindrome = function(n) {
     if (n === 8) return 475 // 因为 n为8时生成的最大回文数超过了js的最大安全整数，所以这里这样处理
     for (var i = Math.pow(10, n) - 1; i >= Math.pow(10, n - 1); i--) {
         var pal = createPalindrome(i)
+        // 最后的结果，i一定比j大，所以到 pal / j < j的时候，就没有必要再比了
         for (var j = Math.pow(10, n) - 1; pal / j < j; j--) {
             if (pal % j === 0) {
                 return pal % 1337
