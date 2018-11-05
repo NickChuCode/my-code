@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b5bc0de3-a3dc-4c39-875f-ea4b87eaaa53" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b5bc0de3-a3dc-4c39-875f-ea4b87eaaa53" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -30,40 +28,28 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="js" value="29" />
+          <entry key="js" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JavaScript" value="29" />
+          <entry key="JavaScript" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="2625" />
+          <entry key="js" value="2652" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="2625" />
+          <entry key="JavaScript" value="2652" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leetcode/easy/58.LengthofLastWord.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="24" column="2" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/scriptOJ/easy/71.不重复数字.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -154,11 +140,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/leetcode/easy/804.UniqueMorseCodeWords.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="231">
               <caret line="50" column="2" selection-start-line="50" selection-start-column="2" selection-end-line="50" selection-end-column="2" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/leetcode/easy/905.SortArrayByParity.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="167">
+              <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -210,6 +208,7 @@
         <option value="$PROJECT_DIR$/leetcode/easy/929.UniqueEmailAddresses.js" />
         <option value="$PROJECT_DIR$/leetcode/easy/709.ToLowerCase.js" />
         <option value="$PROJECT_DIR$/leetcode/easy/804.UniqueMorseCodeWords.js" />
+        <option value="$PROJECT_DIR$/leetcode/easy/905.SortArrayByParity.js" />
       </list>
     </option>
   </component>
@@ -328,12 +327,12 @@
       <workItem from="1541121245021" duration="7960000" />
       <workItem from="1541159542419" duration="29000" />
       <workItem from="1541221946192" duration="2098000" />
-      <workItem from="1541314722173" duration="9700000" />
+      <workItem from="1541314722173" duration="10340000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50153000" />
+    <option name="totallyTimeSpent" value="50793000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -598,6 +597,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="50" column="2" selection-start-line="50" selection-start-column="2" selection-end-line="50" selection-end-column="2" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/easy/905.SortArrayByParity.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
