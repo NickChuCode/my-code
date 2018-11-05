@@ -2,7 +2,9 @@
 function shallowClone(obj) {
     var res = {}
     for (let key in obj) {
-        res[key] = obj[key]
+        if (obj.hasOwnProperty(key)){
+            res[key] = obj[key]
+        }
     }
     return res
 }
@@ -48,40 +50,40 @@ console.log("============parse clone===================")
 // 3.对象有循环引用,会报错
 // 构造函数
 function person(pname) {
-    this.name = pname;
+    this.name = pname
 }
 
-const Messi = new person('Messi');
+const Messi = new person('Messi')
 
 // 函数
 function say() {
-    console.log('hi');
-};
+    console.log('hi')
+}
 
 const oldObj3 = {
     a: say,
     b: new Array(1),
     c: new RegExp('ab+c', 'i'),
     d: Messi
-};
+}
 
-const newObj3 = JSON.parse(JSON.stringify(oldObj3));
+const newObj3 = JSON.parse(JSON.stringify(oldObj3))
 console.log("============parse clone false===================")
 // 无法复制函数
-console.log(newObj3.a, oldObj3.a); // undefined [Function: say]
+console.log(newObj3.a, oldObj3.a) // undefined [Function: say]
 // 稀疏数组复制错误
-console.log(newObj3.b[0], oldObj3.b[0]); // null undefined
+console.log(newObj3.b[0], oldObj3.b[0]) // null undefined
 // 无法复制正则对象
-console.log(newObj3.c, oldObj3.c); // {} /ab+c/i
+console.log(newObj3.c, oldObj3.c) // {} /ab+c/i
 // 构造函数指向错误
-console.log(newObj3.d.constructor, oldObj3.d.constructor); // [Function: Object] [Function: person]
+console.log(newObj3.d.constructor, oldObj3.d.constructor) // [Function: Object] [Function: person]
 // 循环引用也会出现错误
-const oldObjCirclar = {};
+const oldObjCirclar = {}
 
-oldObjCirclar.a = oldObjCirclar;
+oldObjCirclar.a = oldObjCirclar
 
-const newObjCircular = JSON.parse(JSON.stringify(oldObjCirclar));
-console.log(newObjCircular.a, oldObjCirclar.a); // TypeError: Converting circular structure to JSON
+// const newObjCircular = JSON.parse(JSON.stringify(oldObjCirclar))
+// console.log(newObjCircular.a, oldObjCirclar.a) // TypeError: Converting circular structure to JSON
 console.log("============parse clone false===================")
 
 // 自己构建深拷贝
