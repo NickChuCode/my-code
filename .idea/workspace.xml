@@ -28,40 +28,28 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="js" value="33" />
+          <entry key="js" value="34" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JavaScript" value="33" />
+          <entry key="JavaScript" value="34" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="2672" />
+          <entry key="js" value="2699" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="2672" />
+          <entry key="JavaScript" value="2699" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leetcode/easy/754.ReachaNumber.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="21" column="33" lean-forward="true" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/深克隆.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -155,7 +143,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/leetcode/easy/832.FlippingAnImage.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="199">
@@ -163,6 +151,15 @@
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/frontend/scriptOJ/easy/93VirtualDOM.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="23" selection-start-column="23" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -215,6 +212,7 @@
         <option value="$PROJECT_DIR$/leetcode/easy/461.HammingDistance.js" />
         <option value="$PROJECT_DIR$/leetcode/easy/657.RobotReturnToOrigin.js" />
         <option value="$PROJECT_DIR$/leetcode/easy/832.FlippingAnImage.js" />
+        <option value="$PROJECT_DIR$/frontend/scriptOJ/easy/93VirtualDOM.js" />
       </list>
     </option>
   </component>
@@ -247,6 +245,24 @@
               <item name="my-code" type="b2602c69:ProjectViewProjectNode" />
               <item name="my-code" type="462c0819:PsiDirectoryNode" />
               <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-code" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-code" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="scriptOJ" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-code" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="scriptOJ" type="462c0819:PsiDirectoryNode" />
+              <item name="easy" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="my-code" type="b2602c69:ProjectViewProjectNode" />
@@ -333,12 +349,12 @@
       <workItem from="1541121245021" duration="7960000" />
       <workItem from="1541159542419" duration="29000" />
       <workItem from="1541221946192" duration="2098000" />
-      <workItem from="1541314722173" duration="12339000" />
+      <workItem from="1541314722173" duration="13627000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52792000" />
+    <option name="totallyTimeSpent" value="54080000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -646,6 +662,13 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/scriptOJ/easy/93VirtualDOM.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="23" selection-start-column="23" selection-end-column="23" />
         </state>
       </provider>
     </entry>
