@@ -29,40 +29,28 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="js" value="51" />
+          <entry key="js" value="52" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JavaScript" value="51" />
+          <entry key="JavaScript" value="52" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="3250" />
+          <entry key="js" value="3255" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="3250" />
+          <entry key="JavaScript" value="3255" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leetcode/easy/884.UncommonWordsfromTwoSentences.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="34" column="2" selection-start-line="34" selection-start-column="2" selection-end-line="34" selection-end-column="2" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/scriptOJ/easy/64.翻箱倒柜.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -159,11 +147,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/scriptOJ/easy/44.同字母异序.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="295">
               <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/frontend/scriptOJ/easy/26.分页判断.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="256">
+              <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -186,7 +186,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/leetcode/easy/203.RemoveLinkedListElements.js" />
         <option value="$PROJECT_DIR$/leetcode/easy/665.Non-decreasingArray.js" />
         <option value="$PROJECT_DIR$/frontend/数组去重.js" />
         <option value="$PROJECT_DIR$/leetcode/easy/479.LargestPalindromeProduct.js" />
@@ -237,6 +236,7 @@
         <option value="$PROJECT_DIR$/frontend/scriptOJ/easy/79.灵魂交换.js" />
         <option value="$PROJECT_DIR$/frontend/scriptOJ/easy/41.执行任意表达式.js" />
         <option value="$PROJECT_DIR$/frontend/scriptOJ/easy/44.同字母异序.js" />
+        <option value="$PROJECT_DIR$/frontend/scriptOJ/easy/26.分页判断.js" />
       </list>
     </option>
   </component>
@@ -370,12 +370,12 @@
       <workItem from="1541314722173" duration="17925000" />
       <workItem from="1541475301360" duration="6044000" />
       <workItem from="1541561530636" duration="1757000" />
-      <workItem from="1541646322328" duration="3079000" />
+      <workItem from="1541646322328" duration="3260000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69258000" />
+    <option name="totallyTimeSpent" value="69439000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -407,13 +407,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/leetcode/easy/7.ReverseInteger.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="5" column="57" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/easy/203.RemoveLinkedListElements.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="464">
@@ -800,6 +793,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="295">
           <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/scriptOJ/easy/26.分页判断.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
