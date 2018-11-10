@@ -21,6 +21,7 @@
 // 注意不要触碰到传入对象的 prototype。
 
 const flikerProps = (obj) => {
+    // getOwnProertyNames会返回所有的自身属性，无论是否enumerable
     const a = Object.getOwnPropertyNames(obj)
     const b = Object.keys(obj)
     // 因为propertyIsEnumerable是obj原型上的方法，而题目中有要求，所以需要绕一下

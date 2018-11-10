@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b5bc0de3-a3dc-4c39-875f-ea4b87eaaa53" name="Default Changelist" comment="" />
+    <list default="true" id="b5bc0de3-a3dc-4c39-875f-ea4b87eaaa53" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/frontend/scriptOJ/easy/76.属性闪烁.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/scriptOJ/easy/76.属性闪烁.js" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -59,22 +61,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="js" value="10" />
+          <entry key="js" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JavaScript" value="10" />
+          <entry key="JavaScript" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="417" />
+          <entry key="js" value="472" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="417" />
+          <entry key="JavaScript" value="472" />
         </counts>
       </usages-collector>
     </session>
@@ -164,7 +166,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/scriptOJ/easy/33.数组拍平.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
@@ -177,10 +179,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/scriptOJ/easy/44.同字母异序.js">
+        <entry file="file://$PROJECT_DIR$/frontend/scriptOJ/easy/76.属性闪烁.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+            <state relative-caret-position="465">
+              <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -188,11 +190,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/scriptOJ/easy/26.分页判断.js">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/frontend/scriptOJ/easy/34.操作 Cookie.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+            <state relative-caret-position="360">
+              <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -215,7 +217,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/frontend/颜色字符串转换.js" />
         <option value="$PROJECT_DIR$/leetcode/easy/707.DesignLinkedList.js" />
         <option value="$PROJECT_DIR$/leetcode/easy/26.RemoveDuplicatesfromSortedArray.js" />
         <option value="$PROJECT_DIR$/frontend/去除头尾空格.js" />
@@ -238,7 +239,6 @@
         <option value="$PROJECT_DIR$/frontend/scriptOJ/easy/93VirtualDOM.js" />
         <option value="$PROJECT_DIR$/frontend/scriptOJ/medium/88.noConflict.js" />
         <option value="$PROJECT_DIR$/frontend/scriptOJ/easy/83.filterMap.js" />
-        <option value="$PROJECT_DIR$/frontend/scriptOJ/easy/76.属性闪烁.js" />
         <option value="$PROJECT_DIR$/leetcode/easy/617. MergeTwoBinaryTrees.js" />
         <option value="$PROJECT_DIR$/leetcode/easy/617.MergeTwoBinaryTrees.js" />
         <option value="$PROJECT_DIR$/leetcode/easy/561.ArrayPartitionI.js" />
@@ -266,6 +266,8 @@
         <option value="$PROJECT_DIR$/frontend/scriptOJ/medium/86.字体高亮函数.js" />
         <option value="$PROJECT_DIR$/frontend/scriptOJ/easy/63.Symbol 转换.js" />
         <option value="$PROJECT_DIR$/frontend/scriptOJ/easy/33.数组拍平.js" />
+        <option value="$PROJECT_DIR$/frontend/scriptOJ/easy/76.属性闪烁.js" />
+        <option value="$PROJECT_DIR$/frontend/scriptOJ/easy/34.操作 Cookie.js" />
       </list>
     </option>
   </component>
@@ -403,12 +405,12 @@
       <workItem from="1541646322328" duration="5173000" />
       <workItem from="1541689141001" duration="182000" />
       <workItem from="1541747135785" duration="3577000" />
-      <workItem from="1541769354275" duration="7006000" />
+      <workItem from="1541769354275" duration="7821000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82117000" />
+    <option name="totallyTimeSpent" value="82932000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1315" height="1417" extended-state="0" />
@@ -440,13 +442,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/leetcode/easy/633.SumofSquareNumbers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="9" column="63" selection-start-line="9" selection-start-column="63" selection-end-line="9" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/scriptOJ/medium/100.把数字转换成中文.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
@@ -605,13 +600,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/scriptOJ/easy/76.属性闪烁.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="17" column="56" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
         </state>
       </provider>
     </entry>
@@ -838,6 +826,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/scriptOJ/easy/76.属性闪烁.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/scriptOJ/easy/34.操作 Cookie.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
