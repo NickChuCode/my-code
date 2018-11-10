@@ -59,40 +59,28 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="js" value="7" />
+          <entry key="js" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JavaScript" value="7" />
+          <entry key="JavaScript" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="282" />
+          <entry key="js" value="375" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="282" />
+          <entry key="JavaScript" value="375" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/scriptOJ/easy/81.单例模式.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="35" column="20" lean-forward="true" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/leetcode/easy/876.MiddleOfTheLinkedList.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -167,11 +155,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/frontend/scriptOJ/easy/84.自动绑定实例方法.js">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/scriptOJ/medium/84.自动绑定实例方法.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="42" column="9" lean-forward="true" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+            <state relative-caret-position="375">
+              <caret line="25" column="2" lean-forward="true" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/frontend/scriptOJ/medium/86.字体高亮函数.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="1" selection-start-line="19" selection-end-line="19" selection-end-column="1" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -218,7 +215,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/frontend/把数字转换成中文.js" />
         <option value="$PROJECT_DIR$/frontend/scriptOJ/easy/99.safeGet.js" />
         <option value="$PROJECT_DIR$/frontend/scriptOJ/正则/87.判断美元符号格式.js" />
         <option value="$PROJECT_DIR$/frontend/颜色字符串转换.js" />
@@ -269,6 +265,7 @@
         <option value="$PROJECT_DIR$/frontend/scriptOJ/easy/31.DOM标签统计.js" />
         <option value="$PROJECT_DIR$/frontend/scriptOJ/easy/73.数组的空位填充.js" />
         <option value="$PROJECT_DIR$/frontend/scriptOJ/easy/84.自动绑定实例方法.js" />
+        <option value="$PROJECT_DIR$/frontend/scriptOJ/medium/86.字体高亮函数.js" />
       </list>
     </option>
   </component>
@@ -321,6 +318,13 @@
             <path>
               <item name="my-code" type="b2602c69:ProjectViewProjectNode" />
               <item name="my-code" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="scriptOJ" type="462c0819:PsiDirectoryNode" />
+              <item name="medium" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-code" type="462c0819:PsiDirectoryNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -339,6 +343,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/frontend/scriptOJ/medium" />
       <recent name="C:\Users\朱怡心\Desktop\Ps\my-code\frontend\scriptOJ\medium" />
     </key>
   </component>
@@ -405,18 +410,18 @@
       <workItem from="1541646322328" duration="5173000" />
       <workItem from="1541689141001" duration="182000" />
       <workItem from="1541747135785" duration="3577000" />
-      <workItem from="1541769354275" duration="3096000" />
+      <workItem from="1541769354275" duration="5254000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78207000" />
+    <option name="totallyTimeSpent" value="80365000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1315" height="1417" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21020092" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21020092" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -428,7 +433,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32849503" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32849503" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -442,13 +447,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/leetcode/easy/26.RemoveDuplicatesfromSortedArray.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/获取url参数.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
@@ -830,10 +828,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/scriptOJ/easy/84.自动绑定实例方法.js">
+    <entry file="file://$PROJECT_DIR$/frontend/scriptOJ/medium/84.自动绑定实例方法.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="42" column="9" lean-forward="true" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+        <state relative-caret-position="375">
+          <caret line="25" column="2" lean-forward="true" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/scriptOJ/medium/86.字体高亮函数.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="1" selection-start-line="19" selection-end-line="19" selection-end-column="1" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
