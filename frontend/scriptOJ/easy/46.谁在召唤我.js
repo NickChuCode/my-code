@@ -23,3 +23,14 @@ function where () {
         return arguments.callee.caller.name
     }
 }
+
+// arguments.caller被废弃了，所以我们可以用arguments.callee.caller实现
+// 也可以用Function.caller实现，下面这个就是Function.caller的实现版本
+// 两个版本的思路是一样的
+function where () {
+    if (where.caller === null) {
+        return 'main'
+    } else {
+        return where.caller.name
+    }
+}
