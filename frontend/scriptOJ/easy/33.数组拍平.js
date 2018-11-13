@@ -16,3 +16,21 @@ const flatten = (arr) => {
     flat(arr)
     return res
 }
+
+// 另一个版本，判断改了一下，没什么区别，generator版本（#91）要更简洁一些，直接递归自身，
+// 而这里的两个版本要递归子函数的原因在于，需要一个上一级的res数组，来承载数据，
+// 如果直接递归函数，数组和递归同一级，返回的最后还是一个多维数组
+const flatten = (arr) => {
+    var res = []
+    function flat(ar) {
+        for (var i = 0; i < ar.length; i++) {
+            if (typeof ar[i] === 'number') {
+                res.push(ar[i])
+            } else {
+                flat(ar[i])
+            }
+        }
+    }
+    flat(arr)
+    return res
+}
