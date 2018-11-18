@@ -31,3 +31,10 @@ const curry = function (fn) {
         }(arr.concat(args))
     }
 }
+
+// ES6版本
+const curry = ( f, arr = []) => {
+    return (...args) => {
+        return ( a => a.length === f.length ? f(...a) : curry(f, a))([...arr, ...args])
+    }
+}
