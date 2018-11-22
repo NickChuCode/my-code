@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5bc0de3-a3dc-4c39-875f-ea4b87eaaa53" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/easy/14.LongestCommonPrefix.js" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/easy/14.LongestCommonPrefix.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -63,43 +63,31 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="js" value="54" />
+          <entry key="js" value="55" />
           <entry key="md" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JavaScript" value="54" />
+          <entry key="JavaScript" value="55" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="2487" />
+          <entry key="js" value="2529" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="2487" />
+          <entry key="JavaScript" value="2529" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/scriptOJ/easy/30.curry函数.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="39" column="1" selection-start-line="24" selection-end-line="39" selection-end-column="1" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/scriptOJ/easy/101.解析字串.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -166,11 +154,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/leetcode/medium/938.RangeSumofBST.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="645">
               <caret line="43" column="46" lean-forward="true" selection-start-line="43" selection-start-column="46" selection-end-line="43" selection-end-column="46" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/leetcode/easy/14.LongestCommonPrefix.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="30" column="54" selection-start-line="30" selection-start-column="54" selection-end-line="30" selection-end-column="54" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -214,7 +214,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/frontend/scriptOJ/easy/39.不用循环生成数组.js" />
         <option value="$PROJECT_DIR$/frontend/scriptOJ/easy/27.compose 函数.js" />
         <option value="$PROJECT_DIR$/frontend/scriptOJ/easy/62.全选和不选.js" />
         <option value="$PROJECT_DIR$/frontend/scriptOJ/easy/51.Don'tTouchMe.js" />
@@ -265,6 +264,7 @@
         <option value="$PROJECT_DIR$/frontend/scriptOJ/medium/65.迷你MVVM.js" />
         <option value="$PROJECT_DIR$/frontend/scriptOJ/medium/69.简单的模版引擎.js" />
         <option value="$PROJECT_DIR$/leetcode/medium/938.RangeSumofBST.js" />
+        <option value="$PROJECT_DIR$/leetcode/easy/14.LongestCommonPrefix.js" />
       </list>
     </option>
   </component>
@@ -300,7 +300,24 @@
             <path>
               <item name="my-code" type="b2602c69:ProjectViewProjectNode" />
               <item name="my-code" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-code" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="scriptOJ" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-code" type="462c0819:PsiDirectoryNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-code" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="easy" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -393,12 +410,12 @@
       <workItem from="1542246765022" duration="7370000" />
       <workItem from="1542435577703" duration="14602000" />
       <workItem from="1542724058606" duration="1434000" />
-      <workItem from="1542763105966" duration="929000" />
+      <workItem from="1542763105966" duration="2804000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127108000" />
+    <option name="totallyTimeSpent" value="128983000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1315" height="1417" extended-state="0" />
@@ -430,13 +447,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/frontend/scriptOJ/easy/26.分页判断.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/scriptOJ/easy/41.执行任意表达式.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -810,6 +820,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="645">
           <caret line="43" column="46" lean-forward="true" selection-start-line="43" selection-start-column="46" selection-end-line="43" selection-end-column="46" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/easy/14.LongestCommonPrefix.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="54" selection-start-line="30" selection-start-column="54" selection-end-line="30" selection-end-column="54" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>

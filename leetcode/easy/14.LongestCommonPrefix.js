@@ -27,6 +27,7 @@ var longestCommonPrefix = function(strs) {
         if (res) {
             return short
         } else {
+            // 貌似在裁剪字符串的时候，substring比slice的效率要更高一些
             short = short.substring(0, short.length - 1)
         }
     }
