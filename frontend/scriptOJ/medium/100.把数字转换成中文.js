@@ -14,7 +14,7 @@ const toChineseNum = (num) => {
         let i = 0, str = ''
 
         while(flag ? i < 4 : mynum > 0 ) {
-            count = mynum % 10
+            var count = mynum % 10
             mynum = Math.floor(mynum / 10)
             str = (count ? counts[count] + unit[i] : str[0] == '零' ? '' : str.length && i ? '零' : '') + str
             i++
