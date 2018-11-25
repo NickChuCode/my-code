@@ -8,6 +8,7 @@
 // numbers.next().value // => 5
 function *flatten2 (arr) {
     /* TODO */
+    // 不能用forEach去迭代，因为yield无法击穿函数，即使是生成器内部的函数（深入理解ES6：P153）
     for (var i = 0; i < arr.length; i++) {
         if (typeof arr[i] === 'number') {
             yield arr[i]

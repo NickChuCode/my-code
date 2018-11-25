@@ -11,6 +11,7 @@
 
 // 主要考察了template string的用法，他的用法是很灵活的，作为参数时，可以拆开，
 // 而且可以通过拆开后的数组检索到其中的string部分和表达式部分
+// 这道题用到了标签模板（深入ES6：P32）
 const highlight = (strings, ...values) => {
     var res = ""
     for (var i = 0; i < values.length; i++) {
