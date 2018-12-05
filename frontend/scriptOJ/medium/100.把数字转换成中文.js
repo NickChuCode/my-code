@@ -16,7 +16,29 @@ const toChineseNum = (num) => {
         while(flag ? i < 4 : mynum > 0 ) {
             var count = mynum % 10
             mynum = Math.floor(mynum / 10)
-            str = (count ? counts[count] + unit[i] : str[0] == '零' ? '' : str.length && i ? '零' : '') + str
+            if (count > 0) {
+                // 当前位不为0的时候，也是最简单的情况，直接取对应的数字+位数即可
+                // 因为是从低位开始加，所以加到原来str的前面
+                str = counts[count] + unit[i] + str
+            } else {
+                // 当前位为0的时候，情况有点复杂
+                if (str[0] == '零') {
+                    // 如果当前位的紧邻低位也是0，则什么都不加
+                    str = '' + str
+                } else {
+                    if (str.length && i) {
+                        // str不为空（即从最低位开始，之前有数字不为0）
+                        // 或者不是4位数中的最低位
+                        str = '零' + str
+                    } else {
+                        // 当前位是4位数中的第一位（也就是最低位，i=0的情况）
+                        // 或者str为空（比如当前为最低位，或者从最低位开始，一直都是0）
+                        str = '' + str
+                    }
+                }
+            }
+            // 下面是上面复杂判断的一行写法
+            // str = (count ? counts[count] + unit[i] : str[0] == '零' ? '' : str.length && i ? '零' : '') + str
             i++
         }
         return str
