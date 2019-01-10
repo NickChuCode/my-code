@@ -13,6 +13,13 @@ const isAnagram = (str1, str2) => {
     }
     return true
 }
+// 另一种实现方式
+const isAnagram = (str1, str2) => {
+    if (str1.length !== str2.length) return false
+    return str1.split('').every((t) => {
+        return str2.indexOf(t) > -1
+    })
+}
 
 // 如果需要字母一一对应
 const isAnagram = (str1, str2) => {
