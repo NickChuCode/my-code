@@ -11,3 +11,15 @@ const arrWithoutLoop = (n) => {
     loop(n)
     return res
 }
+
+// 另一种方式，其实逻辑是一样的
+const arrWithoutLoop = (n) => {
+    var res = []
+    function add(n) {
+        if (n <= 0) return
+        res.unshift(n-1)
+        add(n-1)
+    }
+    add(n)
+    return res
+}
