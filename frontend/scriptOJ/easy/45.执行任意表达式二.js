@@ -8,6 +8,7 @@
 // execute('run()', { run: () => 'Good Night' }) // => Good Night
 // ...
 // 另外，你不能使用 with 关键字。
+// 实际上，在JS中，function是new Function的语法糖
 const execute = function (str, data) {
   return new Function(...Object.keys(data), `return ${str}`)(...Object.values(data))
 }
